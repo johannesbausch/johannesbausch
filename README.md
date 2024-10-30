@@ -42,11 +42,11 @@
             <img src="https://github-readme-stats.vercel.app/api/top-langs?username=johannesbausch&show_icons=true&locale=en&layout=compact" alt="Most Used Languages" style="width: 100%; max-width: 400px;" />
         </td>
     </tr>
-    <tr>
+    <!--<tr>
         <td>
             <img src="https://github-readme-stats.vercel.app/api?username=johannesbausch&show_icons=true&locale=en" alt="Johannes Bausch's GitHub Stats" style="width: 100%; max-width: 400px;" />
         </td>
-    </tr>
+    </tr>-->
     <tr>
         <td>
             <img src="https://github-readme-streak-stats.herokuapp.com/?user=johannesbausch" alt="GitHub Streak Stats" style="width: 100%; max-width: 400px;" />
