@@ -36,7 +36,7 @@
 
 <br/>
 <h3 align="left">GitHub Statistics:</h3>
-<table>
+<table align="center">
     <tr>
         <td>
             <img src="https://github-readme-stats.vercel.app/api/top-langs?username=johannesbausch&show_icons=true&locale=en&layout=compact" alt="Most Used Languages" style="width: 100%; max-width: 400px;" />
