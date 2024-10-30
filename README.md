@@ -5,6 +5,7 @@
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=johannesbausch&label=Profile%20views&color=0e75b6&style=flat" alt="johannesbausch" /> </p>
 
 <h3 align="left">About me:</h3>
+
 - 💼 CEO of **BAKOV GmbH**
 
 - 📧 How to reach me **johannesbausch01@gmail.com**
