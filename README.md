@@ -8,7 +8,7 @@
 
 - 💼 CEO of **BAKOV GmbH**
 
-- 📧 How to reach me **johannesbausch01@gmail.com**
+- 📧 Business **johannesbausch01@gmail.com**
 
 <br/>
 <h3 align="left">Connect with me:</h3>
