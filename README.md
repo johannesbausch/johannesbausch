@@ -6,6 +6,7 @@
 
 <h3 align="left">About me:</h3>
 - 💼 CEO of **BAKOV GmbH**
+
 - 📧 How to reach me **johannesbausch01@gmail.com**
 
 <h3 align="left">Connect with me:</h3>
