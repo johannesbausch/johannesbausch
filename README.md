@@ -1,6 +1,6 @@
 ![MasterHead](https://i.pinimg.com/originals/19/b2/8c/19b28c8372aaec65623f7ee7332e74be.gif)
 <h1 align="center">Hi. I'm Johannes Bausch.</h1>
-<h4 align="center">A backend developer from Germany.</h4>
+<h4 align="center">A backend developer from Germany.</h5>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=johannesbausch&label=Profile%20views&color=0e75b6&style=flat" alt="johannesbausch" /> </p>
 
@@ -35,7 +35,7 @@
 </p>
 
 <br/>
-<h3 align="left">GitHub Statistics:</h3>
+<h3>GitHub Statistics:</h3>
 <table align="center">
     <tr>
         <td>
