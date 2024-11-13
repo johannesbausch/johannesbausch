@@ -9,13 +9,9 @@
         <td>
             <h3 align="left">About me:</h3>
         </td>
-    </tr>
-    <tr>     
         <td>
-            - 💼 CEO of **BAKOV GmbH**
-        </td>
-        <td>
-            - 📧 Business **johannesbausch01@gmail.com**
+        💼 CEO of **BAKOV GmbH**
+        📧 Business **johannesbausch01@gmail.com**
         </td>
     </tr>
 </table>
