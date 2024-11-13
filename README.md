@@ -79,3 +79,9 @@
         </td>
     </tr>
 </table>
+
+<style>
+    a, a:visited {
+        text-decoration: none;
+    }
+</style>
