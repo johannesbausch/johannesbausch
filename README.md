@@ -1,8 +1,8 @@
 ![MasterHead](https://i.pinimg.com/originals/19/b2/8c/19b28c8372aaec65623f7ee7332e74be.gif)
 
 <p align="center">
-    <h1 align="center">Hi. I'm Johannes Bausch.</h1>
-    <h4 align="center">A backend developer from Germany.</h4>
+    <h1>Hi. I'm Johannes Bausch.</h1>
+    <h4>A backend developer from Germany.</h4>
 </p>
 
 ![Profile Views](https://komarev.com/ghpvc/?username=johannesbausch&label=Profile%20views&color=000000&style=flat)
