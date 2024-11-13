@@ -2,7 +2,7 @@
 <h1 align="center">Hi. I'm Johannes Bausch.</h1>
 <h4 align="center">A backend developer from Germany.</h5>
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=johannesbausch&label=Profile%20views&color=0e75b6&style=flat" alt="johannesbausch" /> </p>
+<p align="left"> <img src="https://komarev.com/ghpvc/?username=johannesbausch&label=Profile%20views&color=000000&style=flat" alt="johannesbausch" /> </p>
 
 <h3 align="left">About me:</h3>
 
