@@ -12,8 +12,10 @@
     </tr>
     <tr>     
         <td>
-        - 💼 CEO of **BAKOV GmbH**
-        - 📧 Business **johannesbausch01@gmail.com**
+            - 💼 CEO of **BAKOV GmbH**
+        </td>
+        <td>
+            - 📧 Business **johannesbausch01@gmail.com**
         </td>
     </tr>
 </table>
