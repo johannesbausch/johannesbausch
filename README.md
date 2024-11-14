@@ -3,6 +3,9 @@
 <div align="center">
     <h1>Hi. I'm Johannes Bausch.</h1>
     <h4>A backend developer from Germany.</h4>
+</div>
+
+<div align="center">
     ![Profile Views](https://komarev.com/ghpvc/?username=johannesbausch&label=Profile%20views&color=000000&style=flat)
 </div>
 
