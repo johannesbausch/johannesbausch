@@ -9,7 +9,7 @@
 
 
 
-[comment]: <> (Align all tables, table background different color, remove top row, Inserting Images using markdown), remove column seperation in top row
+![comment]: <> (Align all tables, table background different color, remove top row, Inserting Images using markdown), remove column seperation in top row
 
 
 
