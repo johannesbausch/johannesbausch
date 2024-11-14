@@ -5,7 +5,7 @@
     <h4>A backend developer from Germany.</h4>
 </div>
 
-<div style="text-align: center;">
+<div style="text-align: center; width: 100%;">
     <img src="https://komarev.com/ghpvc/?username=johannesbausch&label=Profile%20views&color=000000&style=flat" alt="Profile Views">
 </div>
 
