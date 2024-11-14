@@ -24,6 +24,6 @@
 
 
 | GitHub Statistics |
-|---|
+|------------------|
 | ![Most Used Languages](https://github-readme-stats.vercel.app/api/top-langs?username=johannesbausch&show_icons=true&locale=en&layout=compact) |
 | ![GitHub Streak Stats](https://github-readme-streak-stats.herokuapp.com/?user=johannesbausch) |
