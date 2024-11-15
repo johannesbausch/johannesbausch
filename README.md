@@ -23,6 +23,4 @@
 
 
 
-| GitHub Statistics |
-|------------------|
-| [![GitHub Streak](https://streak-stats.demolab.com?user=johannesbausch&theme=halloween)](https://git.io/streak-stats) |
+[![GitHub Streak](https://streak-stats.demolab.com?user=johannesbausch&theme=halloween)](https://git.io/streak-stats)
