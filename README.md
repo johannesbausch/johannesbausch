@@ -25,4 +25,4 @@
 
 | GitHub Statistics |
 |------------------|
-| [![GitHub Streak](https://streak-stats.demolab.com?user=johannesbausch&theme=dark)](https://git.io/streak-stats) |
+| [![GitHub Streak](https://streak-stats.demolab.com?user=johannesbausch)](https://git.io/streak-stats) |
