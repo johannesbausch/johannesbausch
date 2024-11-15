@@ -25,4 +25,4 @@
 
 | GitHub Statistics |
 |------------------|
-| ![GitHub Streak Stats](https://github-readme-streak-stats.herokuapp.com/?user=johannesbausch&theme=dark) |
+| ![GitHub Streak Stats](https://github-readme-streak-stats.herokuapp.com/?user=johannesbausch) |
