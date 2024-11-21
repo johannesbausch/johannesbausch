@@ -8,10 +8,7 @@
 ![Profile Views](https://komarev.com/ghpvc/?username=johannesbausch&label=Profile%20views&color=000000&style=flat)
 
 
-
-![comment]: <> (Align all tables, table background different color, remove top row, Inserting Images using markdown), remove column seperation in top row, different gif
-
-
+<!-- Align all tables, table background different color, remove top row, Inserting Images using markdown), remove column seperation in top row, different gif -->
 
 
 | **About me** | |
