@@ -20,4 +20,4 @@
 
 
 
-<img src="https://streak-stats.demolab.com?user=johannesbausch&theme=dark&hide_border=true&card_width=1012&background=00000000&border=00000000&stroke=00000000&ring=FFFFFF&fire=FF8000&currStreakNum=EBEBEB&sideNums=FFFFFF&currStreakLabel=EBEBEB&sideLabels=EBEBEB&dates=EBEBEB" alt="GitHub Streak" />
+<img src="https://streak-stats.demolab.com?user=johannesbausch&theme=dark&hide_border=true&card_width=1012&background=00000000&border=00000000&stroke=00000000&ring=757575&fire=FF8000&currStreakNum=757575&sideNums=757575&currStreakLabel=757575&sideLabels=757575&dates=757575" alt="GitHub Streak" />
