@@ -55,9 +55,6 @@
         .cat-left-eye-closed {
         animation: cat-left-eye-open 3s infinite;
         }
----------------------------------------------------------------------------
-
-
 
         /* Keyframes for the pumpkin's right eye */
         @keyframes pumpkin-right-eye-blink {
