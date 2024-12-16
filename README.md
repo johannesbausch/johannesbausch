@@ -1,4 +1,6 @@
-![MasterHead](https://i.pinimg.com/originals/19/b2/8c/19b28c8372aaec65623f7ee7332e74be.gif)
+<p align="center">
+ <img width="1000" src="assets/cat.svg" alt="cat"/>
+</p>
 
 <div align="center">
     <h1>Hi. I'm Johannes Bausch.</h1>
@@ -21,7 +23,3 @@
 
 
 <img src="https://streak-stats.demolab.com?user=johannesbausch&theme=dark&hide_border=true&card_width=1012&background=00000000&border=00000000&stroke=00000000&ring=79C0FF&fire=FF8000&currStreakNum=79C0FF&sideNums=79C0FF&currStreakLabel=79C0FF&sideLabels=79C0FF&dates=79C0FF" alt="GitHub Streak" />
-
-<p align="center">
- <img width="1000" src="assets/cat.svg" alt="cat"/>
-</p>
