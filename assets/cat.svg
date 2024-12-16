@@ -14,7 +14,7 @@
 
 .cat-body {
   animation: breathing 3s ease-in-out infinite;
-  transform-origin: top center; /* Stretch from the top */
+  transform-origin: bottom center; /* Anchor at the bottom center */
 }
 
         /* Keyframes for the right eye */
