@@ -8,10 +8,9 @@
 </div>
 
 ![Profile Views](https://komarev.com/ghpvc/?username=johannesbausch&label=Profile%20views&color=000000&style=flat)
+[![Sponsor me](https://img.shields.io/badge/Sponsor-me-brightgreen?style=flat-square)](https://github.com/sponsors/johannesbausch)
 
-
-<!-- Align all tables, table background different color, remove top row, Inserting Images using markdown), remove column seperation in top row, different gif -->
-
+<!-- TODO: Align all tables, table background different color, remove top row, Inserting Images using markdown), remove column seperation in top row -->
 
 | **About me** | |
 |--------------|---|
@@ -27,5 +26,3 @@
 </div>
 
 <img src="https://streak-stats.demolab.com?user=johannesbausch&theme=dark&hide_border=true&card_width=1012&background=00000000&border=00000000&stroke=00000000&ring=79C0FF&fire=FF8000&currStreakNum=79C0FF&sideNums=79C0FF&currStreakLabel=79C0FF&sideLabels=79C0FF&dates=79C0FF" alt="GitHub Streak" />
-
-[![Sponsor me](https://img.shields.io/badge/Sponsor-me-brightgreen?style=flat-square)](https://github.com/sponsors/johannesbausch)
