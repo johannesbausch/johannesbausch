@@ -2,45 +2,45 @@
 <style>
 /* Keyframes for the cat's right eye */
 @keyframes cat-right-eye-blink {
-  0%, 40% {
+  0%, 20% {
     opacity: 1; /* Eye open */
   }
-  45%, 100% {
+  25%, 100% {
     opacity: 0; /* Eye closed */
   }
 }
 
 @keyframes cat-right-eye-open {
-  0%, 40% {
+  0%, 20% {
     opacity: 0; /* Eye closed */
   }
-  45%, 100% {
+  25%, 100% {
     opacity: 1; /* Eye open */
   }
 }
 
 /* Keyframes for the cat's left eye */
 @keyframes cat-left-eye-blink {
-  0%, 40% {
+  0%, 20% {
     opacity: 1; /* Eye open */
   }
-  45%, 100% {
+  25%, 100% {
     opacity: 0; /* Eye closed */
   }
 }
 
 @keyframes cat-left-eye-open {
-  0%, 40% {
+  0%, 20% {
     opacity: 0; /* Eye closed */
   }
-  45%, 100% {
+  25%, 100% {
     opacity: 1; /* Eye open */
   }
 }
 
 /* Apply animation to cat right eye */
 .cat-right-eye-open {
-  animation: cat-right-eye-blink 3s infinite;
+  animation: cat-right-eye-blink 3s infinite; /* Blinking with faster transitions */
 }
 
 .cat-right-eye-closed {
@@ -49,7 +49,7 @@
 
 /* Apply animation to cat left eye */
 .cat-left-eye-open {
-  animation: cat-left-eye-blink 3s infinite;
+  animation: cat-left-eye-blink 3s infinite; /* Blinking with faster transitions */
 }
 
 .cat-left-eye-closed {
