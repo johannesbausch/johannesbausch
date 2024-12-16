@@ -83,36 +83,36 @@
         }
 
         /* Bat animations */
-        @keyframes batFly {
-            0% {
-                transform: translateX(-100%) translateY(0);
-            }
-            25% {
-                transform: translateX(25%) translateY(-10px); /* Move right and up */
-            }
-            50% {
-                transform: translateX(50%) translateY(0); /* Mid point of arc */
-            }
-            75% {
-                transform: translateX(75%) translateY(10px); /* Move right and down */
-            }
-            100% {
-                transform: translateX(100%) translateY(0); /* Final position */
-            }
-        }
+@keyframes batFly {
+    0% {
+        transform: translateX(-20%) translateY(0); /* Starting point */
+    }
+    25% {
+        transform: translateX(10%) translateY(-5px); /* Slight upward movement */
+    }
+    50% {
+        transform: translateX(40%) translateY(0); /* Mid point of arc */
+    }
+    75% {
+        transform: translateX(70%) translateY(5px); /* Slight downward movement */
+    }
+    100% {
+        transform: translateX(100%) translateY(0); /* Final position */
+    }
+}
 
-        .bat1, .bat2 {
-            animation: batFly 5s ease-in-out infinite;
-            position: absolute; /* Ensure they move independently of other elements */
-        }
+.bat1, .bat2 {
+    animation: batFly 6s ease-in-out infinite; /* Slower and smoother flying */
+    position: absolute; /* Ensure they move independently of other elements */
+}
 
-        .bat1 {
-            animation-delay: 0s; /* First bat starts animation immediately */
-        }
+.bat1 {
+    animation-delay: 0s; /* First bat starts animation immediately */
+}
 
-        .bat2 {
-            animation-delay: 2.5s; /* Second bat starts slightly after the first one */
-        }
+.bat2 {
+    animation-delay: 3s; /* Second bat starts slightly after the first one */
+}
 </style>
 
 <path d="M511.182 428.161C563.372 428.161 605.681 423.035 605.681 416.713C605.681 410.39 563.372 405.265 511.182 405.265C458.992 405.265 416.683 410.39 416.683 416.713C416.683 423.035 458.992 428.161 511.182 428.161Z" fill="#BFB7C9"/>
