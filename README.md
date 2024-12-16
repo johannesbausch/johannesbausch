@@ -9,7 +9,7 @@
 
 ![Profile Views](https://komarev.com/ghpvc/?username=johannesbausch&label=Profile%20views&color=000000&style=flat)
 
-[![Sponsor me](https://img.shields.io/badge/Sponsor-me-%23E63946?style=flat-square&logoColor=white&label=❤️Support)](https://github.com/sponsors/johannesbausch)
+[![Sponsor me](https://img.shields.io/badge/Sponsor-me-%23E63946?style=flat&logo=heart&logoColor=white)](https://github.com/sponsors/johannesbausch)
 
 <!-- TODO: Align all tables, table background different color, remove top row, Inserting Images using markdown), remove column seperation in top row -->
 
