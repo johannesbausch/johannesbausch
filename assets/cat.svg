@@ -1,6 +1,6 @@
 <svg width="1012" height="720" viewBox="0 0 1012 720" fill="none" xmlns="http://www.w3.org/2000/svg">
 <style>
-        /* Keyframes for the right eye */
+/* Keyframes for the right eye */
 @keyframes blink-right {
     0%, 90% {
         opacity: 1; /* Open eye visible */
@@ -38,23 +38,22 @@
     }
 }
 
-        /* Target the specific SVG path for right eye closed */
+        /* Target the specific SVG path for right eye open */
 .cat-right-eye-open {
     animation: blink-right 3s infinite; /* Apply the blink animation to this path */
 }
-        
-/* Right eye animations */
+
+/* Target the specific SVG path for right eye closed */
 .cat-right-eye-closed {
     animation: blink-right-close 3s infinite; /* Blink every 3 seconds */
 }
 
-        
-/* Target the specific SVG path for left eye closed */
+/* Target the specific SVG path for left eye open */
 .cat-left-eye-open {
     animation: blink-left 3s infinite; /* Apply the blink animation to this path */
 }
 
-/* Left eye animations */
+/* Target the specific SVG path for left eye closed */
 .cat-left-eye-closed {
     animation: blink-left-close 3s infinite; /* Blink every 3 seconds */
 }
