@@ -83,7 +83,7 @@
         }
 
         /* Bat animations */
-@keyframes batFly {
+@keyframes batFly1 {
     0% {
         transform: translateY(0) translateX(0); /* Original position */
     }
@@ -91,7 +91,7 @@
         transform: translateY(-2px) translateX(1px); /* Slight up and right movement */
     }
     50% {
-        transform: translateY(2px) translateX(-1px); /* Slight down and left movement */
+        transform: translateY(3px) translateX(-2px); /* Slight down and left movement */
     }
     75% {
         transform: translateY(-1px) translateX(0); /* Slight up movement */
@@ -101,13 +101,35 @@
     }
 }
 
-.bat1, .bat2 {
-    animation: batFly 3s ease-in-out infinite; /* Slow fluttering motion */
-    position: absolute; /* Ensure they stay in the same position */
+@keyframes batFly2 {
+    0% {
+        transform: translateY(0) translateX(0); /* Original position */
+    }
+    25% {
+        transform: translateY(1px) translateX(-1px); /* Slight down and left movement */
+    }
+    50% {
+        transform: translateY(-2px) translateX(2px); /* Slight up and right movement */
+    }
+    75% {
+        transform: translateY(2px) translateX(0); /* Slight down movement */
+    }
+    100% {
+        transform: translateY(0) translateX(0); /* Return to original position */
+    }
 }
 
 .bat1, .bat2 {
-    animation-delay: 0s; /* Both bats start animation at the same time */
+    animation: 3s ease-in-out infinite; /* Same animation duration for both bats */
+    position: absolute; /* Ensure they stay in the same position */
+}
+
+.bat1 {
+    animation-name: batFly1; /* Apply the first unique movement to bat1 */
+}
+
+.bat2 {
+    animation-name: batFly2; /* Apply the second unique movement to bat2 */
 }
 </style>
 
