@@ -38,9 +38,20 @@
     }
 }
 
+        /* Target the specific SVG path for right eye closed */
+.cat-right-eye-open {
+    animation: blink-right 3s infinite; /* Apply the blink animation to this path */
+}
+        
 /* Right eye animations */
 .cat-right-eye-closed {
     animation: blink-right-close 3s infinite; /* Blink every 3 seconds */
+}
+
+        
+/* Target the specific SVG path for left eye closed */
+.cat-left-eye-open {
+    animation: blink-left 3s infinite; /* Apply the blink animation to this path */
 }
 
 /* Left eye animations */
@@ -48,35 +59,8 @@
     animation: blink-left-close 3s infinite; /* Blink every 3 seconds */
 }
 
-/* Keyframes for the left eye's closed path */
-@keyframes blink-left-2 {
-    0%, 90% {
-        opacity: 1; /* Path visible when eye is open */
-    }
-    100% {
-        opacity: 0; /* Path hidden when eye is closed */
-    }
-}
 
-/* Keyframes for the right eye's closed path */
-@keyframes blink-right-2 {
-    0%, 90% {
-        opacity: 1; /* Path visible when eye is open */
-    }
-    100% {
-        opacity: 0; /* Path hidden when eye is closed */
-    }
-}
 
-/* Target the specific SVG path for left eye closed */
-.cat-left-eye-open-2 {
-    animation: blink-left-2 3s infinite; /* Apply the blink animation to this path */
-}
-
-/* Target the specific SVG path for right eye closed */
-.cat-right-eye-open-2 {
-    animation: blink-right-2 3s infinite; /* Apply the blink animation to this path */
-}
 
         /* Keyframes for the pumpkin's right eye */
         @keyframes pumpkin-right-eye-blink {
