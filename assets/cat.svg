@@ -2,20 +2,22 @@
     <style>
 @keyframes breathing {
   0% {
-    transform: scaleY(1);
+    height: 100%;
   }
   50% {
-    transform: scaleY(1.05); /* Stretch the body upwards */
+    height: 105%; /* Stretch the body upwards by 5% */
   }
   100% {
-    transform: scaleY(1);
+    height: 100%;
   }
 }
 
 .cat-body {
   animation: breathing 3s ease-in-out infinite;
-  transform-origin: bottom center; /* Set the transform origin to the bottom */
+  height: 100%; /* Set initial height */
+  transform-origin: bottom center; /* Keep the transformation anchored at the bottom */
 }
+
         
         /* Keyframes for the right eye */
         @keyframes blink-right {
