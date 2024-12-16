@@ -1,63 +1,61 @@
 <svg width="1012" height="720" viewBox="0 0 1012 720" fill="none" xmlns="http://www.w3.org/2000/svg">
 <style>
-/* Keyframes for the right eye */
-@keyframes blink-right {
-    0%, 90% {
-        opacity: 1; /* Open eye visible */
-    }
-    95%, 100% {
-        opacity: 0; /* Eye fades out (closing) */
-    }
-}
+/* Keyframes for the cat's right eye */
+        @keyframes cat-right-eye-blink {
+        0%, 90% {
+        opacity: 1; /* Eye open */
+        }
+        95%, 100% {
+        opacity: 0; /* Eye closed */
+        }
+        }
 
-@keyframes blink-right-close {
-    0%, 90% {
-        opacity: 0; /* Closed eye hidden */
-    }
-    95%, 100% {
-        opacity: 1; /* Closed eye fades in (opening) */
-    }
-}
+        @keyframes cat-right-eye-open {
+        0%, 90% {
+        opacity: 0; /* Eye closed */
+        }
+        95%, 100% {
+        opacity: 1; /* Eye open */
+        }
+        }
 
-/* Keyframes for the left eye */
-@keyframes blink-left {
-    0%, 90% {
-        opacity: 1; /* Open eye visible */
-    }
-    95%, 100% {
-        opacity: 0; /* Eye fades out (closing) */
-    }
-}
+        /* Keyframes for the cat's left eye */
+        @keyframes cat-left-eye-blink {
+        0%, 90% {
+        opacity: 1; /* Eye open */
+        }
+        95%, 100% {
+        opacity: 0; /* Eye closed */
+        }
+        }
 
-@keyframes blink-left-close {
-    0%, 90% {
-        opacity: 0; /* Closed eye hidden */
-    }
-    95%, 100% {
-        opacity: 1; /* Closed eye fades in (opening) */
-    }
-}
+        @keyframes cat-left-eye-open {
+        0%, 90% {
+        opacity: 0; /* Eye closed */
+        }
+        95%, 100% {
+        opacity: 1; /* Eye open */
+        }
+        }
 
-        /* Target the specific SVG path for right eye open */
-.cat-right-eye-open {
-    animation: blink-right 3s infinite; /* Apply the blink animation to this path */
-}
+        /* Apply animation to cat right eye */
+        .cat-right-eye-open {
+        animation: cat-right-eye-blink 3s infinite;
+        }
 
-/* Target the specific SVG path for right eye closed */
-.cat-right-eye-closed {
-    animation: blink-right-close 3s infinite; /* Blink every 3 seconds */
-}
+        .cat-right-eye-closed {
+        animation: cat-right-eye-open 3s infinite;
+        }
 
-/* Target the specific SVG path for left eye open */
-.cat-left-eye-open {
-    animation: blink-left 3s infinite; /* Apply the blink animation to this path */
-}
+        /* Apply animation to cat left eye */
+        .cat-left-eye-open {
+        animation: cat-left-eye-blink 3s infinite;
+        }
 
-/* Target the specific SVG path for left eye closed */
-.cat-left-eye-closed {
-    animation: blink-left-close 3s infinite; /* Blink every 3 seconds */
-}
-
+        .cat-left-eye-closed {
+        animation: cat-left-eye-open 3s infinite;
+        }
+---------------------------------------------------------------------------
 
 
 
