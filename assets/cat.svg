@@ -1,109 +1,117 @@
 <svg width="1012" height="720" viewBox="0 0 1012 720" fill="none" xmlns="http://www.w3.org/2000/svg">
     <style>
-        /* Keyframes for the right eye */
-        @keyframes blink-right {
+    /* Keyframes for the right eye */
+    @keyframes blink-right {
         0%, 90% {
-        opacity: 1; /* Open eye visible */
+            opacity: 1; /* Open eye visible */
         }
         95%, 100% {
-        opacity: 0; /* Open eye fades out */
+            opacity: 0; /* Open eye fades out */
         }
-        }
+    }
 
-        @keyframes blink-right-close {
+    @keyframes blink-right-close {
         0%, 90% {
-        opacity: 0; /* Closed eye hidden */
+            opacity: 0; /* Closed eye hidden */
         }
         95%, 100% {
-        opacity: 1; /* Closed eye fades in */
+            opacity: 1; /* Closed eye fades in */
         }
-        }
+    }
 
-        /* Keyframes for the left eye */
-        @keyframes blink-left {
-        0%, 80% {
-        opacity: 1; /* Open eye visible */
+    /* Keyframes for the left eye */
+    @keyframes blink-left {
+        0%, 90% {
+            opacity: 1; /* Open eye visible */
         }
-        85%, 100% {
-        opacity: 0; /* Open eye fades out */
+        95%, 100% {
+            opacity: 0; /* Open eye fades out */
         }
-        }
+    }
 
-        @keyframes blink-left-close {
-        0%, 80% {
-        opacity: 0; /* Closed eye hidden */
+    @keyframes blink-left-close {
+        0%, 90% {
+            opacity: 0; /* Closed eye hidden */
         }
-        85%, 100% {
-        opacity: 1; /* Closed eye fades in */
+        95%, 100% {
+            opacity: 1; /* Closed eye fades in */
         }
-        }
+    }
 
-        /* Right eye animations */
-        .right-eye-open {
+    /* Right eye animations */
+    .right-eye-open {
         animation: blink-right 3s infinite; /* Blink every 3 seconds */
-        }
+    }
 
-        .right-eye-closed {
+    .right-eye-closed {
         animation: blink-right-close 3s infinite; /* Blink every 3 seconds */
-        }
+    }
 
-        /* Left eye animations */
-        .left-eye-open {
+    /* Left eye animations */
+    .left-eye-open {
         animation: blink-left 3s infinite; /* Blink every 3 seconds */
-        }
+    }
 
-        .left-eye-closed {
+    .left-eye-closed {
         animation: blink-left-close 3s infinite; /* Blink every 3 seconds */
-        }
+    }
 
-        @keyframes spiderDrop {
+    /* Ensure both eyes blink together by aligning the keyframes */
+    .right-eye-open, .left-eye-open {
+        animation-duration: 3s;
+        animation-timing-function: ease-in-out;
+        animation-iteration-count: infinite;
+    }
+
+    /* Adjust the spider and bat animations */
+    @keyframes spiderDrop {
         0% {
-        transform: translateY(0);  /* Original position */
+            transform: translateY(0);  /* Original position */
         }
         50% {
-        transform: translateY(10px);  /* Adjust to how far you want it to drop */
+            transform: translateY(10px);  /* Adjust to how far you want it to drop */
         }
         100% {
-        transform: translateY(0);  /* Return to original position */
+            transform: translateY(0);  /* Return to original position */
         }
-        }
+    }
 
-        .spider1, .spider2 {
+    .spider1, .spider2 {
         animation: spiderDrop 3s ease-in-out infinite;
         transform-origin: center;  /* Ensures the animation happens around the center of the group */
-        }
+    }
 
-        @keyframes batFly {
+    @keyframes batFly {
         0% {
-        transform: translateX(-100%) translateY(0);
+            transform: translateX(-100%) translateY(0);
         }
         25% {
-        transform: translateX(25%) translateY(-10px); /* Move right and up */
+            transform: translateX(25%) translateY(-10px); /* Move right and up */
         }
         50% {
-        transform: translateX(50%) translateY(0); /* Mid point of arc */
+            transform: translateX(50%) translateY(0); /* Mid point of arc */
         }
         75% {
-        transform: translateX(75%) translateY(10px); /* Move right and down */
+            transform: translateX(75%) translateY(10px); /* Move right and down */
         }
         100% {
-        transform: translateX(100%) translateY(0); /* Final position */
+            transform: translateX(100%) translateY(0); /* Final position */
         }
-        }
+    }
 
-        .bat1, .bat2 {
+    .bat1, .bat2 {
         animation: batFly 5s ease-in-out infinite;
         position: absolute; /* Ensure they move independently of other elements */
-        }
+    }
 
-        .bat1 {
+    .bat1 {
         animation-delay: 0s; /* First bat starts animation immediately */
-        }
+    }
 
-        .bat2 {
+    .bat2 {
         animation-delay: 2.5s; /* Second bat starts slightly after the first one */
-        }
-    </style>
+    }
+</style>
 
 <path d="M511.182 428.161C563.372 428.161 605.681 423.035 605.681 416.713C605.681 410.39 563.372 405.265 511.182 405.265C458.992 405.265 416.683 410.39 416.683 416.713C416.683 423.035 458.992 428.161 511.182 428.161Z" fill="#BFB7C9"/>
 <path d="M549.354 342.534C549.586 342.535 549.817 342.521 550.046 342.502C550.058 342.51 550.065 342.522 550.078 342.53C550.156 342.574 550.236 342.609 550.315 342.649C550.309 342.84 550.407 343.033 550.619 343.063C550.871 343.099 551.01 343.306 551.115 343.485C551.151 343.547 551.183 343.612 551.215 343.676C551.229 343.708 551.248 343.752 551.278 343.82C551.251 343.758 551.247 343.753 551.268 343.803C551.339 343.999 551.432 344.183 551.523 344.369C551.82 344.98 552.187 345.574 552.786 345.912C552.898 346.475 553.013 347.039 553.126 347.6C553.261 348.271 554.295 348.554 554.731 348.005C555.22 347.389 555.409 346.678 555.322 345.895C555.316 345.843 555.306 345.792 555.298 345.74C555.331 345.718 555.37 345.704 555.403 345.68C555.785 345.398 556.079 345.064 556.353 344.677C556.586 344.348 556.849 343.958 556.955 343.568C556.982 343.47 556.987 343.374 556.979 343.281C557.513 343.285 558.043 343.272 558.566 343.061C559.01 342.882 559.326 342.501 559.244 341.997C559.17 341.539 558.777 341.154 558.289 341.172C558.152 341.177 558.016 341.182 557.879 341.187C557.506 341.084 557.13 340.995 556.749 340.927C555.875 340.77 554.985 340.679 554.097 340.667C552.448 340.644 550.533 340.788 549.125 341.712C548.761 341.952 548.906 342.533 549.354 342.534Z" fill="#7D7682"/>
