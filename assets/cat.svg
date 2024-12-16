@@ -2,57 +2,57 @@
 <style>
 /* Keyframes for the cat's right eye */
 @keyframes cat-right-eye-blink {
-  0%, 10% {
+  0%, 5% {
     opacity: 1; /* Eye open */
   }
-  15%, 30% {
+  10%, 20% {
     opacity: 0; /* Eye closed */
   }
-  35%, 100% {
+  25%, 100% {
     opacity: 1; /* Eye open */
   }
 }
 
 @keyframes cat-right-eye-open {
-  0%, 10% {
+  0%, 5% {
     opacity: 0; /* Eye closed */
   }
-  15%, 30% {
+  10%, 20% {
     opacity: 1; /* Eye open */
   }
-  35%, 100% {
+  25%, 100% {
     opacity: 0; /* Eye closed */
   }
 }
 
 /* Keyframes for the cat's left eye */
 @keyframes cat-left-eye-blink {
-  0%, 10% {
+  0%, 5% {
     opacity: 1; /* Eye open */
   }
-  15%, 30% {
+  10%, 20% {
     opacity: 0; /* Eye closed */
   }
-  35%, 100% {
+  25%, 100% {
     opacity: 1; /* Eye open */
   }
 }
 
 @keyframes cat-left-eye-open {
-  0%, 10% {
+  0%, 5% {
     opacity: 0; /* Eye closed */
   }
-  15%, 30% {
+  10%, 20% {
     opacity: 1; /* Eye open */
   }
-  35%, 100% {
+  25%, 100% {
     opacity: 0; /* Eye closed */
   }
 }
 
 /* Apply animation to cat right eye */
 .cat-right-eye-open {
-  animation: cat-right-eye-blink 3s infinite; /* Slow blinking frequency */
+  animation: cat-right-eye-blink 3s infinite; /* Faster blink transition */
 }
 
 .cat-right-eye-closed {
@@ -61,12 +61,13 @@
 
 /* Apply animation to cat left eye */
 .cat-left-eye-open {
-  animation: cat-left-eye-blink 3s infinite; /* Slow blinking frequency */
+  animation: cat-left-eye-blink 3s infinite; /* Faster blink transition */
 }
 
 .cat-left-eye-closed {
   animation: cat-left-eye-open 3s infinite;
 }
+  
         /* Keyframes for the pumpkin's right eye */
         @keyframes pumpkin-right-eye-blink {
         0%, 90% {
