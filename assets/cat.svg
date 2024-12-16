@@ -1,60 +1,60 @@
 <svg width="1012" height="720" viewBox="0 0 1012 720" fill="none" xmlns="http://www.w3.org/2000/svg">
 <style>
 /* Keyframes for the cat's right eye */
-        @keyframes cat-right-eye-blink {
-        0%, 90% {
-        opacity: 1; /* Eye open */
-        }
-        95%, 100% {
-        opacity: 0; /* Eye closed */
-        }
-        }
+@keyframes cat-right-eye-blink {
+  0%, 40% {
+    opacity: 1; /* Eye open */
+  }
+  45%, 100% {
+    opacity: 0; /* Eye closed */
+  }
+}
 
-        @keyframes cat-right-eye-open {
-        0%, 90% {
-        opacity: 0; /* Eye closed */
-        }
-        95%, 100% {
-        opacity: 1; /* Eye open */
-        }
-        }
+@keyframes cat-right-eye-open {
+  0%, 40% {
+    opacity: 0; /* Eye closed */
+  }
+  45%, 100% {
+    opacity: 1; /* Eye open */
+  }
+}
 
-        /* Keyframes for the cat's left eye */
-        @keyframes cat-left-eye-blink {
-        0%, 90% {
-        opacity: 1; /* Eye open */
-        }
-        95%, 100% {
-        opacity: 0; /* Eye closed */
-        }
-        }
+/* Keyframes for the cat's left eye */
+@keyframes cat-left-eye-blink {
+  0%, 40% {
+    opacity: 1; /* Eye open */
+  }
+  45%, 100% {
+    opacity: 0; /* Eye closed */
+  }
+}
 
-        @keyframes cat-left-eye-open {
-        0%, 90% {
-        opacity: 0; /* Eye closed */
-        }
-        95%, 100% {
-        opacity: 1; /* Eye open */
-        }
-        }
+@keyframes cat-left-eye-open {
+  0%, 40% {
+    opacity: 0; /* Eye closed */
+  }
+  45%, 100% {
+    opacity: 1; /* Eye open */
+  }
+}
 
-        /* Apply animation to cat right eye */
-        .cat-right-eye-open {
-        animation: cat-right-eye-blink 3s infinite;
-        }
+/* Apply animation to cat right eye */
+.cat-right-eye-open {
+  animation: cat-right-eye-blink 3s infinite;
+}
 
-        .cat-right-eye-closed {
-        animation: cat-right-eye-open 3s infinite;
-        }
+.cat-right-eye-closed {
+  animation: cat-right-eye-open 3s infinite;
+}
 
-        /* Apply animation to cat left eye */
-        .cat-left-eye-open {
-        animation: cat-left-eye-blink 3s infinite;
-        }
+/* Apply animation to cat left eye */
+.cat-left-eye-open {
+  animation: cat-left-eye-blink 3s infinite;
+}
 
-        .cat-left-eye-closed {
-        animation: cat-left-eye-open 3s infinite;
-        }
+.cat-left-eye-closed {
+  animation: cat-left-eye-open 3s infinite;
+}
 
         /* Keyframes for the pumpkin's right eye */
         @keyframes pumpkin-right-eye-blink {
