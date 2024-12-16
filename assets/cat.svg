@@ -1,192 +1,192 @@
 <svg width="1012" height="720" viewBox="0 0 1012 720" fill="none" xmlns="http://www.w3.org/2000/svg">
     <style>
         /* Keyframes for the right eye */
-        @keyframes blink-right {
-        0%, 90% {
-        opacity: 1; /* Open eye visible */
-        }
-        95%, 100% {
-        opacity: 0; /* Eye fades out (closing) */
-        }
-        }
+@keyframes blink-right {
+  0%, 90% {
+    opacity: 1; /* Open eye visible */
+  }
+  95%, 100% {
+    opacity: 0; /* Eye fades out (closing) */
+  }
+}
 
-        @keyframes blink-right-close {
-        0%, 90% {
-        opacity: 0; /* Closed eye hidden */
-        }
-        95%, 100% {
-        opacity: 1; /* Closed eye fades in (opening) */
-        }
-        }
+@keyframes blink-right-close {
+  0%, 90% {
+    opacity: 0; /* Closed eye hidden */
+  }
+  95%, 100% {
+    opacity: 1; /* Closed eye fades in (opening) */
+  }
+}
 
-        /* Keyframes for the left eye */
-        @keyframes blink-left {
-        0%, 90% {
-        opacity: 1; /* Open eye visible */
-        }
-        95%, 100% {
-        opacity: 0; /* Eye fades out (closing) */
-        }
-        }
+/* Keyframes for the left eye */
+@keyframes blink-left {
+  0%, 90% {
+    opacity: 1; /* Open eye visible */
+  }
+  95%, 100% {
+    opacity: 0; /* Eye fades out (closing) */
+  }
+}
 
-        @keyframes blink-left-close {
-        0%, 90% {
-        opacity: 0; /* Closed eye hidden */
-        }
-        95%, 100% {
-        opacity: 1; /* Closed eye fades in (opening) */
-        }
-        }
+@keyframes blink-left-close {
+  0%, 90% {
+    opacity: 0; /* Closed eye hidden */
+  }
+  95%, 100% {
+    opacity: 1; /* Closed eye fades in (opening) */
+  }
+}
 
-        /* Right eye animations */
-        .right-eye-open {
-        animation: blink-right 3s infinite; /* Blink every 3 seconds */
-        }
+/* Right eye animations */
+.right-eye-open {
+  animation: blink-right 3s infinite; /* Blink every 3 seconds */
+}
 
-        .right-eye-closed {
-        animation: blink-right-close 3s infinite; /* Blink every 3 seconds */
-        }
+.right-eye-closed {
+  animation: blink-right-close 3s infinite; /* Blink every 3 seconds */
+}
 
-        /* Left eye animations */
-        .left-eye-open {
-        animation: blink-left 3s infinite; /* Blink every 3 seconds */
-        }
+/* Left eye animations */
+.left-eye-open {
+  animation: blink-left 3s infinite; /* Blink every 3 seconds */
+}
 
-        .left-eye-closed {
-        animation: blink-left-close 3s infinite; /* Blink every 3 seconds */
-        }
+.left-eye-closed {
+  animation: blink-left-close 3s infinite; /* Blink every 3 seconds */
+}
 
-        /* Ensure both eyes blink together by aligning the keyframes */
-        .right-eye-open, .left-eye-open {
-        animation-duration: 3s;
-        animation-timing-function: ease-in-out;
-        animation-iteration-count: infinite;
-        animation-delay: 0s; /* Ensure both start at the same time */
-        }
+/* Ensure both eyes blink together by aligning the keyframes */
+.right-eye-open, .left-eye-open {
+  animation-duration: 3s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-delay: 0s; /* Ensure both start at the same time */
+}
 
-        /* Keyframes for the pumpkin's right eye */
-        @keyframes pumpkin-right-eye-blink {
-        0%, 90% {
-        opacity: 1; /* Eye open */
-        }
-        95%, 100% {
-        opacity: 0; /* Eye closed */
-        }
-        }
+/* Keyframes for the pumpkin's right eye */
+@keyframes pumpkin-right-eye-blink {
+  0%, 90% {
+    opacity: 1; /* Eye open */
+  }
+  95%, 100% {
+    opacity: 0; /* Eye closed */
+  }
+}
 
-        @keyframes pumpkin-right-eye-open {
-        0%, 90% {
-        opacity: 0; /* Eye closed */
-        }
-        95%, 100% {
-        opacity: 1; /* Eye open */
-        }
-        }
+@keyframes pumpkin-right-eye-open {
+  0%, 90% {
+    opacity: 0; /* Eye closed */
+  }
+  95%, 100% {
+    opacity: 1; /* Eye open */
+  }
+}
 
-        /* Keyframes for the pumpkin's left eye */
-        @keyframes pumpkin-left-eye-blink {
-        0%, 90% {
-        opacity: 1; /* Eye open */
-        }
-        95%, 100% {
-        opacity: 0; /* Eye closed */
-        }
-        }
+/* Keyframes for the pumpkin's left eye */
+@keyframes pumpkin-left-eye-blink {
+  0%, 90% {
+    opacity: 1; /* Eye open */
+  }
+  95%, 100% {
+    opacity: 0; /* Eye closed */
+  }
+}
 
-        @keyframes pumpkin-left-eye-open {
-        0%, 90% {
-        opacity: 0; /* Eye closed */
-        }
-        95%, 100% {
-        opacity: 1; /* Eye open */
-        }
-        }
+@keyframes pumpkin-left-eye-open {
+  0%, 90% {
+    opacity: 0; /* Eye closed */
+  }
+  95%, 100% {
+    opacity: 1; /* Eye open */
+  }
+}
 
-        /* Apply animation to pumpkin right eye */
-        .pumpkin-right-eye-open {
-        animation: pumpkin-right-eye-blink 3s infinite;
-        }
+/* Apply animation to pumpkin right eye */
+.pumpkin-right-eye-open {
+  animation: pumpkin-right-eye-blink 3s infinite;
+}
 
-        .pumpkin-right-eye-closed {
-        animation: pumpkin-right-eye-open 3s infinite;
-        }
+.pumpkin-right-eye-closed {
+  animation: pumpkin-right-eye-open 3s infinite;
+}
 
-        /* Apply animation to pumpkin left eye */
-        .pumpkin-left-eye-open {
-        animation: pumpkin-left-eye-blink 3s infinite;
-        }
+/* Apply animation to pumpkin left eye */
+.pumpkin-left-eye-open {
+  animation: pumpkin-left-eye-blink 3s infinite;
+}
 
-        .pumpkin-left-eye-closed {
-        animation: pumpkin-left-eye-open 3s infinite;
-        }
+.pumpkin-left-eye-closed {
+  animation: pumpkin-left-eye-open 3s infinite;
+}
 
-        /* Adjust the spider and bat animations */
-        @keyframes spiderDrop {
-        0% {
-        transform: translateY(0);  /* Original position */
-        }
-        50% {
-        transform: translateY(10px);  /* Adjust to how far you want it to drop */
-        }
-        100% {
-        transform: translateY(0);  /* Return to original position */
-        }
-        }
+/* Adjust the spider and bat animations */
+@keyframes spiderDrop {
+  0% {
+    transform: translateY(0);  /* Original position */
+  }
+  50% {
+    transform: translateY(10px);  /* Adjust to how far you want it to drop */
+  }
+  100% {
+    transform: translateY(0);  /* Return to original position */
+  }
+}
 
-        .spider1, .spider2 {
-        animation: spiderDrop 3s ease-in-out infinite;
-        transform-origin: center;  /* Ensures the animation happens around the center of the group */
-        }
+.spider1, .spider2 {
+  animation: spiderDrop 3s ease-in-out infinite;
+  transform-origin: center;  /* Ensures the animation happens around the center of the group */
+}
 
-        /* Bat animations */
-        @keyframes batFly1 {
-        0% {
-        transform: translateY(0) translateX(0); /* Original position */
-        }
-        25% {
-        transform: translateY(-2px) translateX(1px); /* Slight up and right movement */
-        }
-        50% {
-        transform: translateY(3px) translateX(-2px); /* Slight down and left movement */
-        }
-        75% {
-        transform: translateY(-1px) translateX(0); /* Slight up movement */
-        }
-        100% {
-        transform: translateY(0) translateX(0); /* Return to original position */
-        }
-        }
+/* Bat animations */
+@keyframes batFly1 {
+  0% {
+    transform: translateY(0) translateX(0); /* Original position */
+  }
+  25% {
+    transform: translateY(-2px) translateX(1px); /* Slight up and right movement */
+  }
+  50% {
+    transform: translateY(3px) translateX(-2px); /* Slight down and left movement */
+  }
+  75% {
+    transform: translateY(-1px) translateX(0); /* Slight up movement */
+  }
+  100% {
+    transform: translateY(0) translateX(0); /* Return to original position */
+  }
+}
 
-        @keyframes batFly2 {
-        0% {
-        transform: translateY(0) translateX(0); /* Original position */
-        }
-        25% {
-        transform: translateY(1px) translateX(-1px); /* Slight down and left movement */
-        }
-        50% {
-        transform: translateY(-2px) translateX(2px); /* Slight up and right movement */
-        }
-        75% {
-        transform: translateY(2px) translateX(0); /* Slight down movement */
-        }
-        100% {
-        transform: translateY(0) translateX(0); /* Return to original position */
-        }
-        }
+@keyframes batFly2 {
+  0% {
+    transform: translateY(0) translateX(0); /* Original position */
+  }
+  25% {
+    transform: translateY(1px) translateX(-1px); /* Slight down and left movement */
+  }
+  50% {
+    transform: translateY(-2px) translateX(2px); /* Slight up and right movement */
+  }
+  75% {
+    transform: translateY(2px) translateX(0); /* Slight down movement */
+  }
+  100% {
+    transform: translateY(0) translateX(0); /* Return to original position */
+  }
+}
 
-        .bat1, .bat2 {
-        animation: 3s ease-in-out infinite; /* Same animation duration for both bats */
-        position: absolute; /* Ensure they stay in the same position */
-        }
+.bat1, .bat2 {
+  animation: 3s ease-in-out infinite; /* Same animation duration for both bats */
+  position: absolute; /* Ensure they stay in the same position */
+}
 
-        .bat1 {
-        animation-name: batFly1; /* Apply the first unique movement to bat1 */
-        }
+.bat1 {
+  animation-name: batFly1; /* Apply the first unique movement to bat1 */
+}
 
-        .bat2 {
-        animation-name: batFly2; /* Apply the second unique movement to bat2 */
-        }
+.bat2 {
+  animation-name: batFly2; /* Apply the second unique movement to bat2 */
+}
     </style>
 <path d="M494.207 678.998C662.669 678.998 799.235 662.454 799.235 642.046C799.235 621.638 662.669 605.093 494.207 605.093C325.745 605.093 189.179 621.638 189.179 642.046C189.179 662.454 325.745 678.998 494.207 678.998Z" fill="#BFB7C9"/>
 <path d="M617.42 402.608C618.169 402.611 618.915 402.566 619.654 402.504C619.693 402.53 619.715 402.569 619.757 402.595C620.009 402.737 620.267 402.85 620.522 402.979C620.503 403.595 620.819 404.218 621.504 404.315C622.317 404.431 622.766 405.1 623.105 405.677C623.221 405.877 623.324 406.087 623.427 406.294C623.473 406.397 623.534 406.539 623.631 406.759C623.544 406.559 623.531 406.542 623.598 406.704C623.828 407.336 624.128 407.93 624.421 408.531C625.38 410.503 626.565 412.42 628.498 413.511C628.86 415.329 629.231 417.149 629.596 418.96C630.032 421.126 633.369 422.039 634.776 420.267C636.355 418.279 636.965 415.984 636.684 413.456C636.665 413.289 636.632 413.124 636.607 412.956C636.713 412.885 636.839 412.84 636.946 412.762C638.179 411.852 639.128 410.774 640.012 409.525C640.764 408.463 641.613 407.204 641.955 405.945C642.042 405.629 642.058 405.319 642.033 405.019C643.756 405.032 645.467 404.99 647.155 404.309C648.588 403.731 649.608 402.501 649.344 400.874C649.105 399.396 647.836 398.153 646.261 398.211C645.819 398.228 645.38 398.244 644.938 398.26C643.734 397.927 642.52 397.64 641.29 397.421C638.469 396.914 635.596 396.62 632.73 396.581C627.407 396.507 621.226 396.972 616.681 399.954C615.506 400.729 615.974 402.604 617.42 402.608Z" fill="#7D7682"/>
