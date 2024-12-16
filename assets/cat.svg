@@ -12,7 +12,7 @@
         }
         }
 
-        .cat {
+        .cat-body {
         animation: breathing 3s ease-in-out infinite;
         }
         
