@@ -85,25 +85,25 @@
         /* Bat animations */
 @keyframes batFly {
     0% {
-        transform: translateX(-20%) translateY(0); /* Starting point */
+        transform: translateY(0) translateX(0); /* Original position */
     }
     25% {
-        transform: translateX(10%) translateY(-5px); /* Slight upward movement */
+        transform: translateY(-2px) translateX(1px); /* Slight up and right movement */
     }
     50% {
-        transform: translateX(40%) translateY(0); /* Mid point of arc */
+        transform: translateY(2px) translateX(-1px); /* Slight down and left movement */
     }
     75% {
-        transform: translateX(70%) translateY(5px); /* Slight downward movement */
+        transform: translateY(-1px) translateX(0); /* Slight up movement */
     }
     100% {
-        transform: translateX(100%) translateY(0); /* Final position */
+        transform: translateY(0) translateX(0); /* Return to original position */
     }
 }
 
 .bat1, .bat2 {
-    animation: batFly 6s ease-in-out infinite; /* Slower and smoother flying */
-    position: absolute; /* Ensure they move independently of other elements */
+    animation: batFly 3s ease-in-out infinite; /* Slow fluttering motion */
+    position: absolute; /* Ensure they stay in the same position */
 }
 
 .bat1 {
@@ -111,7 +111,7 @@
 }
 
 .bat2 {
-    animation-delay: 3s; /* Second bat starts slightly after the first one */
+    animation-delay: 1.5s; /* Second bat starts slightly after the first one */
 }
 </style>
 
