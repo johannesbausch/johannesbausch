@@ -149,8 +149,15 @@
   }
 }
 
-.spider1, .spider2 {
+.spider1 {
   animation: spiderStretch 3s ease-in-out infinite;
+  animation-delay: 0s; /* Start immediately */
+  transform-origin: top center;  /* Anchor at the top center */
+}
+
+.spider2 {
+  animation: spiderStretch 3s ease-in-out infinite;
+  animation-delay: 0.5s; /* Start half a second later */
   transform-origin: top center;  /* Anchor at the top center */
 }
 
