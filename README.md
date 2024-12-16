@@ -21,3 +21,7 @@
 
 
 <img src="https://streak-stats.demolab.com?user=johannesbausch&theme=dark&hide_border=true&card_width=1012&background=00000000&border=00000000&stroke=00000000&ring=79C0FF&fire=FF8000&currStreakNum=79C0FF&sideNums=79C0FF&currStreakLabel=79C0FF&sideLabels=79C0FF&dates=79C0FF" alt="GitHub Streak" />
+
+<p align="center">
+ <img width="1000" src="assets/snake.svg" alt="snake"/>
+</p>
