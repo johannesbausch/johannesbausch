@@ -152,7 +152,7 @@
 
         .spider1, .spider2 {
         animation: spiderDrop 3s ease-in-out infinite;
-        transform-origin: center;  /* Ensures the animation happens around the center of the group */
+        transform-origin: top center;  /* Ensures the animation happens around the center of the group */
         }
 
         /* Bat animations */
