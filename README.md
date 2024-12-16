@@ -7,7 +7,7 @@
     <h4>A backend developer from Germany.</h4>
 </div>
 
-![Profile Views](https://komarev.com/ghpvc/?username=johannesbausch&label=Profile%20views&color=000000&style=flat)
+![Profile Views](https://komarev.com/ghpvc/?username=johannesbausch&label=👀Profile%20views&color=000000&style=flat)
 
 [![Sponsor me](https://img.shields.io/badge/❤️Sponsor-me-%23E63946?style=flat&Support&logoColor=white)](https://github.com/sponsors/johannesbausch)
 
