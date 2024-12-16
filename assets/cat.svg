@@ -121,20 +121,20 @@
 
         /* Apply animation to pumpkin right eye */
         .pumpkin-right-eye-open {
-        animation: pumpkin-right-eye-blink 3s infinite;
+        animation: pumpkin-right-eye-blink 7s infinite;
         }
 
         .pumpkin-right-eye-closed {
-        animation: pumpkin-right-eye-open 3s infinite;
+        animation: pumpkin-right-eye-open 7s infinite;
         }
 
         /* Apply animation to pumpkin left eye */
         .pumpkin-left-eye-open {
-        animation: pumpkin-left-eye-blink 3s infinite;
+        animation: pumpkin-left-eye-blink 7s infinite;
         }
 
         .pumpkin-left-eye-closed {
-        animation: pumpkin-left-eye-open 3s infinite;
+        animation: pumpkin-left-eye-open 7s infinite;
         }
 
 @keyframes spiderStretch {
