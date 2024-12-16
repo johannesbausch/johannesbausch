@@ -1,116 +1,117 @@
 <svg width="1012" height="720" viewBox="0 0 1012 720" fill="none" xmlns="http://www.w3.org/2000/svg">
     <style>
-    /* Keyframes for the right eye */
-    @keyframes blink-right {
-        0%, 90% {
-            opacity: 1; /* Open eye visible */
+        /* Keyframes for the right eye */
+        @keyframes blink-right {
+            0%, 90% {
+                opacity: 1; /* Open eye visible */
+            }
+            95%, 100% {
+                opacity: 0; /* Eye fades out (closing) */
+            }
         }
-        95%, 100% {
-            opacity: 0; /* Open eye fades out */
-        }
-    }
 
-    @keyframes blink-right-close {
-        0%, 90% {
-            opacity: 0; /* Closed eye hidden */
+        @keyframes blink-right-close {
+            0%, 90% {
+                opacity: 0; /* Closed eye hidden */
+            }
+            95%, 100% {
+                opacity: 1; /* Closed eye fades in (opening) */
+            }
         }
-        95%, 100% {
-            opacity: 1; /* Closed eye fades in */
-        }
-    }
 
-    /* Keyframes for the left eye */
-    @keyframes blink-left {
-        0%, 90% {
-            opacity: 1; /* Open eye visible */
+        /* Keyframes for the left eye */
+        @keyframes blink-left {
+            0%, 90% {
+                opacity: 1; /* Open eye visible */
+            }
+            95%, 100% {
+                opacity: 0; /* Eye fades out (closing) */
+            }
         }
-        95%, 100% {
-            opacity: 0; /* Open eye fades out */
+
+        @keyframes blink-left-close {
+            0%, 90% {
+                opacity: 0; /* Closed eye hidden */
+            }
+            95%, 100% {
+                opacity: 1; /* Closed eye fades in (opening) */
+            }
         }
-    }
 
-    @keyframes blink-left-close {
-        0%, 90% {
-            opacity: 0; /* Closed eye hidden */
+        /* Right eye animations */
+        .right-eye-open {
+            animation: blink-right 3s infinite; /* Blink every 3 seconds */
         }
-        95%, 100% {
-            opacity: 1; /* Closed eye fades in */
+
+        .right-eye-closed {
+            animation: blink-right-close 3s infinite; /* Blink every 3 seconds */
         }
-    }
 
-    /* Right eye animations */
-    .right-eye-open {
-        animation: blink-right 3s infinite; /* Blink every 3 seconds */
-    }
-
-    .right-eye-closed {
-        animation: blink-right-close 3s infinite; /* Blink every 3 seconds */
-    }
-
-    /* Left eye animations */
-    .left-eye-open {
-        animation: blink-left 3s infinite; /* Blink every 3 seconds */
-    }
-
-    .left-eye-closed {
-        animation: blink-left-close 3s infinite; /* Blink every 3 seconds */
-    }
-
-    /* Ensure both eyes blink together by aligning the keyframes */
-    .right-eye-open, .left-eye-open {
-        animation-duration: 3s;
-        animation-timing-function: ease-in-out;
-        animation-iteration-count: infinite;
-    }
-
-    /* Adjust the spider and bat animations */
-    @keyframes spiderDrop {
-        0% {
-            transform: translateY(0);  /* Original position */
+        /* Left eye animations */
+        .left-eye-open {
+            animation: blink-left 3s infinite; /* Blink every 3 seconds */
         }
-        50% {
-            transform: translateY(10px);  /* Adjust to how far you want it to drop */
-        }
-        100% {
-            transform: translateY(0);  /* Return to original position */
-        }
-    }
 
-    .spider1, .spider2 {
-        animation: spiderDrop 3s ease-in-out infinite;
-        transform-origin: center;  /* Ensures the animation happens around the center of the group */
-    }
+        .left-eye-closed {
+            animation: blink-left-close 3s infinite; /* Blink every 3 seconds */
+        }
 
-    @keyframes batFly {
-        0% {
-            transform: translateX(-100%) translateY(0);
+        /* Ensure both eyes blink together by aligning the keyframes */
+        .right-eye-open, .left-eye-open {
+            animation-duration: 3s;
+            animation-timing-function: ease-in-out;
+            animation-iteration-count: infinite;
+            animation-delay: 0s; /* Ensure both start at the same time */
         }
-        25% {
-            transform: translateX(25%) translateY(-10px); /* Move right and up */
-        }
-        50% {
-            transform: translateX(50%) translateY(0); /* Mid point of arc */
-        }
-        75% {
-            transform: translateX(75%) translateY(10px); /* Move right and down */
-        }
-        100% {
-            transform: translateX(100%) translateY(0); /* Final position */
-        }
-    }
 
-    .bat1, .bat2 {
-        animation: batFly 5s ease-in-out infinite;
-        position: absolute; /* Ensure they move independently of other elements */
-    }
+        /* Adjust the spider and bat animations */
+        @keyframes spiderDrop {
+            0% {
+                transform: translateY(0);  /* Original position */
+            }
+            50% {
+                transform: translateY(10px);  /* Adjust to how far you want it to drop */
+            }
+            100% {
+                transform: translateY(0);  /* Return to original position */
+            }
+        }
 
-    .bat1 {
-        animation-delay: 0s; /* First bat starts animation immediately */
-    }
+        .spider1, .spider2 {
+            animation: spiderDrop 3s ease-in-out infinite;
+            transform-origin: center;  /* Ensures the animation happens around the center of the group */
+        }
 
-    .bat2 {
-        animation-delay: 2.5s; /* Second bat starts slightly after the first one */
-    }
+        @keyframes batFly {
+            0% {
+                transform: translateX(-100%) translateY(0);
+            }
+            25% {
+                transform: translateX(25%) translateY(-10px); /* Move right and up */
+            }
+            50% {
+                transform: translateX(50%) translateY(0); /* Mid point of arc */
+            }
+            75% {
+                transform: translateX(75%) translateY(10px); /* Move right and down */
+            }
+            100% {
+                transform: translateX(100%) translateY(0); /* Final position */
+            }
+        }
+
+        .bat1, .bat2 {
+            animation: batFly 5s ease-in-out infinite;
+            position: absolute; /* Ensure they move independently of other elements */
+        }
+    
+        .bat1 {
+            animation-delay: 0s; /* First bat starts animation immediately */
+        }
+    
+        .bat2 {
+            animation-delay: 2.5s; /* Second bat starts slightly after the first one */
+        }
 </style>
 
 <path d="M511.182 428.161C563.372 428.161 605.681 423.035 605.681 416.713C605.681 410.39 563.372 405.265 511.182 405.265C458.992 405.265 416.683 410.39 416.683 416.713C416.683 423.035 458.992 428.161 511.182 428.161Z" fill="#BFB7C9"/>
