@@ -5,7 +5,7 @@
     transform: scaleY(1); /* No stretch */
   }
   50% {
-    transform: scaleY(1.05); /* Stretch the body vertically */
+    transform: scaleY(1.1); /* Stretch the body vertically */
   }
   100% {
     transform: scaleY(1); /* Back to original size */
