@@ -2,58 +2,58 @@
 <style>
 /* Keyframes for the cat's right eye */
 @keyframes cat-right-eye-blink {
-  0%, 20% {
+  0%, 40% {
     opacity: 1; /* Eye open */
   }
-  25%, 100% {
+  45%, 100% {
     opacity: 0; /* Eye closed */
   }
 }
 
 @keyframes cat-right-eye-open {
-  0%, 20% {
+  0%, 40% {
     opacity: 0; /* Eye closed */
   }
-  25%, 100% {
+  45%, 100% {
     opacity: 1; /* Eye open */
   }
 }
 
 /* Keyframes for the cat's left eye */
 @keyframes cat-left-eye-blink {
-  0%, 20% {
+  0%, 40% {
     opacity: 1; /* Eye open */
   }
-  25%, 100% {
+  45%, 100% {
     opacity: 0; /* Eye closed */
   }
 }
 
 @keyframes cat-left-eye-open {
-  0%, 20% {
+  0%, 40% {
     opacity: 0; /* Eye closed */
   }
-  25%, 100% {
+  45%, 100% {
     opacity: 1; /* Eye open */
   }
 }
 
 /* Apply animation to cat right eye */
 .cat-right-eye-open {
-  animation: cat-right-eye-blink 3s infinite; /* Blinking with faster transitions */
+  animation: cat-right-eye-blink 1.5s infinite;
 }
 
 .cat-right-eye-closed {
-  animation: cat-right-eye-open 3s infinite;
+  animation: cat-right-eye-open 1.5s infinite;
 }
 
 /* Apply animation to cat left eye */
 .cat-left-eye-open {
-  animation: cat-left-eye-blink 3s infinite; /* Blinking with faster transitions */
+  animation: cat-left-eye-blink 1.5s infinite;
 }
 
 .cat-left-eye-closed {
-  animation: cat-left-eye-open 3s infinite;
+  animation: cat-left-eye-open 1.5s infinite;
 }
 
         /* Keyframes for the pumpkin's right eye */
