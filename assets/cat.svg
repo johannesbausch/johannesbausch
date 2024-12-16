@@ -137,23 +137,22 @@
         animation: pumpkin-left-eye-open 3s infinite;
         }
 
-        /* Adjust the spider and bat animations */
-        @keyframes spiderDrop {
-        0% {
-        transform: translateY(0);  /* Original position */
-        }
-        50% {
-        transform: translateY(10px);  /* Adjust to how far you want it to drop */
-        }
-        100% {
-        transform: translateY(0);  /* Return to original position */
-        }
-        }
+@keyframes spiderStretch {
+  0% {
+    transform: scaleY(1);  /* No stretch */
+  }
+  50% {
+    transform: scaleY(1.1);  /* Stretch the spiders vertically */
+  }
+  100% {
+    transform: scaleY(1);  /* Back to original size */
+  }
+}
 
-        .spider1, .spider2 {
-        animation: spiderDrop 3s ease-in-out infinite;
-        transform-origin: top center;  /* Ensures the animation happens around the center of the group */
-        }
+.spider1, .spider2 {
+  animation: spiderStretch 3s ease-in-out infinite;
+  transform-origin: top center;  /* Anchor at the top center */
+}
 
         /* Bat animations */
         @keyframes batFly1 {
