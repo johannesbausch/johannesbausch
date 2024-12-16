@@ -1,11 +1,11 @@
 <svg width="1012" height="720" viewBox="0 0 1012 720" fill="none" xmlns="http://www.w3.org/2000/svg">
     <style>
-        @keyframes breathing {
+@keyframes breathing {
   0% {
     transform: scaleY(1);
   }
   50% {
-    transform: scaleY(1.05); /* Stretch the body slightly */
+    transform: scaleY(1.05); /* Stretch the body upwards */
   }
   100% {
     transform: scaleY(1);
@@ -14,7 +14,7 @@
 
 .cat-body {
   animation: breathing 3s ease-in-out infinite;
-  transform-origin: center center; /* Ensure the stretching occurs from the center */
+  transform-origin: bottom center; /* Set the transform origin to the bottom */
 }
         
         /* Keyframes for the right eye */
