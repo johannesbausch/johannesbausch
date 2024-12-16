@@ -106,12 +106,8 @@
     position: absolute; /* Ensure they stay in the same position */
 }
 
-.bat1 {
-    animation-delay: 0s; /* First bat starts animation immediately */
-}
-
-.bat2 {
-    animation-delay: 1.5s; /* Second bat starts slightly after the first one */
+.bat1, .bat2 {
+    animation-delay: 0s; /* Both bats start animation at the same time */
 }
 </style>
 
