@@ -82,36 +82,38 @@
             transform-origin: center;  /* Ensures the animation happens around the center of the group */
         }
 
-        @keyframes batFly {
-            0% {
-                transform: translateX(-100%) translateY(0);
-            }
-            25% {
-                transform: translateX(25%) translateY(-10px); /* Move right and up */
-            }
-            50% {
-                transform: translateX(50%) translateY(0); /* Mid point of arc */
-            }
-            75% {
-                transform: translateX(75%) translateY(10px); /* Move right and down */
-            }
-            100% {
-                transform: translateX(100%) translateY(0); /* Final position */
-            }
+        /* Bat animations */
+    @keyframes batFly {
+        0% {
+            transform: translateX(-100%) translateY(0); /* Start off-screen to the left */
         }
+        25% {
+            transform: translateX(25%) translateY(-10px); /* Move right and up */
+        }
+        50% {
+            transform: translateX(50%) translateY(0); /* Mid point of arc */
+        }
+        75% {
+            transform: translateX(75%) translateY(10px); /* Move right and down */
+        }
+        100% {
+            transform: translateX(100%) translateY(0); /* End off-screen to the right */
+        }
+    }
 
-        .bat1, .bat2 {
-            animation: batFly 5s ease-in-out infinite;
-            position: absolute; /* Ensure they move independently of other elements */
-        }
-    
-        .bat1 {
-            animation-delay: 0s; /* First bat starts animation immediately */
-        }
-    
-        .bat2 {
-            animation-delay: 2.5s; /* Second bat starts slightly after the first one */
-        }
+    .bat1, .bat2 {
+        position: absolute; /* Ensure they are positioned relative to the viewport */
+        animation: batFly 5s ease-in-out infinite;
+        top: 50%; /* Start at the vertical center of the screen */
+    }
+
+    .bat1 {
+        animation-delay: 0s; /* First bat starts animation immediately */
+    }
+
+    .bat2 {
+        animation-delay: 2.5s; /* Second bat starts slightly after the first one */
+    }
 </style>
 
 <path d="M511.182 428.161C563.372 428.161 605.681 423.035 605.681 416.713C605.681 410.39 563.372 405.265 511.182 405.265C458.992 405.265 416.683 410.39 416.683 416.713C416.683 423.035 458.992 428.161 511.182 428.161Z" fill="#BFB7C9"/>
