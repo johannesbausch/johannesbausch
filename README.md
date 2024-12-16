@@ -8,7 +8,9 @@
 </div>
 
 ![Profile Views](https://komarev.com/ghpvc/?username=johannesbausch&label=Profile%20views&color=000000&style=flat)
+
 < /br>
+
 [![Sponsor me](https://img.shields.io/badge/Sponsor-me-brightgreen?style=flat-square)](https://github.com/sponsors/johannesbausch)
 
 <!-- TODO: Align all tables, table background different color, remove top row, Inserting Images using markdown), remove column seperation in top row -->
