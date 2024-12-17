@@ -7,14 +7,12 @@
   <h4>A backend developer from Germany.</h4>
 </div>
 
-<div align="center">
-  <span style="display: inline-flex; gap: 10px; align-items: center;">
-    <a href="https://github.com/sponsors/johannesbausch"><img alt="Sponsor Me Profile Badge" src="https://img.shields.io/badge/❤️Sponsor-me-%23E63946?style=flat&Support&logoColor=white" alt="Sponsor me"></a>
-    <img  alt="Profile Views Badge" src="https://komarev.com/ghpvc/?username=johannesbausch&label=Profile%20views&color=000000&style=flat">
-    <a href="https://linkedin.com/in/johannesbausch"><img alt="LinkedIn Profile Badge" src="https://img.shields.io/badge/LinkedIn-000000?style=flat&logo=LinkedIn&logoColor=white" /></a>
-    <a href="https://steamcommunity.com/id/hakujojo"><img alt="Steam Profile Badge" src="https://img.shields.io/badge/Steam-000000?style=flat&logo=Steam&logoColor=white" /></a>
-  </span>
-</div>
+<span style="display: inline-flex; gap: 10px; align-items: center;">
+  <a href="https://github.com/sponsors/johannesbausch"><img alt="Sponsor Me Profile Badge" src="https://img.shields.io/badge/❤️Sponsor-me-%23E63946?style=flat&Support&logoColor=white" alt="Sponsor me"></a>
+  <img  alt="Profile Views Badge" src="https://komarev.com/ghpvc/?username=johannesbausch&label=Profile%20views&color=000000&style=flat">
+  <a href="https://linkedin.com/in/johannesbausch"><img alt="LinkedIn Profile Badge" src="https://img.shields.io/badge/LinkedIn-000000?style=flat&logo=LinkedIn&logoColor=white" /></a>
+  <a href="https://steamcommunity.com/id/hakujojo"><img alt="Steam Profile Badge" src="https://img.shields.io/badge/Steam-000000?style=flat&logo=Steam&logoColor=white" /></a>
+</span>
 
 <!-- TODO: Align all tables, table background different color, remove top row, Inserting Images using markdown), remove column seperation in top row -->
 
