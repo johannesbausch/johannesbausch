@@ -3,16 +3,17 @@
 </div>
 
 <div align="center">
-    <h1>Hi. I'm Johannes Bausch.</h1>
-    <h4>A backend developer from Germany.</h4>
-  
-   ![Profile Views](https://komarev.com/ghpvc/?username=johannesbausch&label=Profile%20views&color=000000&style=flat)
-
-   [![Sponsor me](https://img.shields.io/badge/❤️Sponsor-me-%23E63946?style=flat&Support&logoColor=white)](https://github.com/sponsors/johannesbausch)
-   
+  <h1>Hi. I'm Johannes Bausch.</h1>
+  <h4>A backend developer from Germany.</h4>
 </div>
 
+<div align="center">
+  
+  ![Profile Views](https://komarev.com/ghpvc/?username=johannesbausch&label=Profile%20views&color=000000&style=flat)
 
+  [![Sponsor me](https://img.shields.io/badge/❤️Sponsor-me-%23E63946?style=flat&Support&logoColor=white)](https://github.com/sponsors/johannesbausch)
+   
+</div>
 
 <!-- TODO: Align all tables, table background different color, remove top row, Inserting Images using markdown), remove column seperation in top row -->
 
