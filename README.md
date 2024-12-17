@@ -12,6 +12,7 @@
     <img src="https://komarev.com/ghpvc/?username=johannesbausch&label=Profile%20views&color=000000&style=flat" alt="Profile Views">
     <a href="https://github.com/sponsors/johannesbausch"><img src="https://img.shields.io/badge/❤️Sponsor-me-%23E63946?style=flat&Support&logoColor=white" alt="Sponsor me"></a>
     <a href="https://linkedin.com/in/johannesbausch"><img alt="LinkedIn Profile Badge" src="https://img.shields.io/badge/LinkedIn-000000?style=flat&logo=LinkedIn&logoColor=white" /></a>
+   <a href="https://steamcommunity.com/id/hakujojo"><img alt="Steam Profile Badge" src="https://img.shields.io/badge/Steam-000000?style=flat&logo=Steam&logoColor=white" /></a>
   </span>
 </div>
 
