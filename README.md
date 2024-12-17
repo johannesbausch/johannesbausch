@@ -9,11 +9,10 @@
 
 <div align="center">
   <span style="display: inline-flex; gap: 10px; align-items: center;">
-
-   ![Profile Views](https://komarev.com/ghpvc/?username=johannesbausch&label=Profile%20views&color=000000&style=flat)
-
-   [![Sponsor me](https://img.shields.io/badge/❤️Sponsor-me-%23E63946?style=flat&Support&logoColor=white)](https://github.com/sponsors/johannesbausch)
-  
+    <img src="https://komarev.com/ghpvc/?username=johannesbausch&label=Profile%20views&color=000000&style=flat" alt="Profile Views">
+    <a href="https://github.com/sponsors/johannesbausch">
+      <img src="https://img.shields.io/badge/❤️Sponsor-me-%23E63946?style=flat&Support&logoColor=white" alt="Sponsor me">
+    </a>
   </span>
 </div>
 
