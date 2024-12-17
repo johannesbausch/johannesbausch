@@ -14,7 +14,7 @@
       <img src="https://img.shields.io/badge/❤️Sponsor-me-%23E63946?style=flat&Support&logoColor=white" alt="Sponsor me">
     </a>
     <a href="https://linkedin.com/in/johannesbausch">
-      <img alt="LinkedIn Profile Badge" src="https://img.shields.io/badge/johannesbausch-000000?style=flat&logo=LinkedIn&logoColor=white" />
+      <img alt="LinkedIn Profile Badge" src="https://img.shields.io/badge/LinkedIn-000000?style=flat&logo=LinkedIn&logoColor=white" />
     </a>
   </span>
 </div>
