@@ -13,7 +13,6 @@
     <img  alt="Profile Views Badge" src="https://komarev.com/ghpvc/?username=johannesbausch&label=Profile%20views&color=000000&style=flat">
     <a href="https://linkedin.com/in/johannesbausch"><img alt="LinkedIn Profile Badge" src="https://img.shields.io/badge/LinkedIn-000000?style=flat&logo=LinkedIn&logoColor=white" /></a>
     <a href="https://steamcommunity.com/id/hakujojo"><img alt="Steam Profile Badge" src="https://img.shields.io/badge/Steam-000000?style=flat&logo=Steam&logoColor=white" /></a>
-   <a href="https://steamcommunity.com/id/hakujojo"><img alt="Steam Profile Badge" src="https://img.shields.io/badge/Steam-000000?style=flat&logo=Steam&logoColor=white" /></a>
   </span>
 </div>
 
