@@ -12,7 +12,6 @@
    <a href="https://github.com/sponsors/johannesbausch"><img src="https://img.shields.io/badge/❤️Sponsor-me-%23E63946?style=flat&Support&logoColor=white" alt="Sponsor me" /></a>
    <img  src="https://komarev.com/ghpvc/?username=johannesbausch&label=Profile%20views&color=000000&style=flat" alt="Profile Views" />
    <a href="https://linkedin.com/in/johannesbausch"><img src="https://img.shields.io/badge/LinkedIn-000000?style=flat&logo=LinkedIn&logoColor=white alt="LinkedIn Profile" /></a>
-   <a href="https://steamcommunity.com/id/hakujojo"><img src="https://img.shields.io/badge/Steam-000000?style=flat&logo=Steam&logoColor=white" alt="Steam Profile" /></a>
   </span>
 </div>
 
