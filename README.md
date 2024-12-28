@@ -4,7 +4,7 @@
 
 <div align="center">
   <h1>Hi. I'm Johannes.</h1>
-  <h4>Fullstack Developer From Germany.</h4>
+  <h4>Full-Stack Developer Based in Germany.</h4>
 </div>
 
 <div align="center">
