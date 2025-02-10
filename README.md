@@ -15,13 +15,15 @@
   </span>
 </div>
 
-<!-- TODO: Align all tables, table background different color, remove top row, Inserting Images using markdown), remove column seperation in top row -->
+<div align="center">
+ 
+### About me
 
-| **About me** | |
-|--------------|---|
 | **Business** | 📧 private@johannes-bausch.com |
-| **Connect with me** | <a href="https://linkedin.com/in/template"><img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" width="25" height="25"></a> &nbsp; <a href="https://instagram.com/template"><img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" width="25" height="25"></a> &nbsp; <a href="https://discord.gg/template"><img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/discord.svg" width="25" height="25"></a> |
-| **Languages** | <a href="https://www.java.com"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" width="25" height="25"></a> &nbsp; <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" width="25" height="25"></a> &nbsp; <a href="https://www.typescriptlang.org/"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" width="25" height="25"></a> |
-| **Tools** | <a href="https://quarkus.io/"><img src="https://design.jboss.org/quarkus/logo/final/SVG/quarkus_icon_rgb_default.svg" width="25" height="25"></a> &nbsp; <a href="https://nodejs.org"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" width="25" height="25"></a> &nbsp; <a href="https://expressjs.com"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg" width="25" height="25"></a> &nbsp; <a href="https://git-scm.com/"><img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" width="25" height="25"></a> &nbsp; <a href="https://www.jenkins.io"><img src="https://www.vectorlogo.zone/logos/jenkins/jenkins-icon.svg" width="25" height="25"></a> &nbsp; <a href="https://www.mongodb.com/"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" width="25" height="25"></a> &nbsp; <a href="https://www.mysql.com/"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" width="25" height="25"></a> &nbsp; <a href="https://www.postgresql.org"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg" width="25" height="25"></a> &nbsp; <a href="https://www.postman.com"><img src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" width="25" height="25"></a> &nbsp; <a href="https://redis.io"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/redis/redis-original-wordmark.svg" width="25" height="25"></a> |
+|--------------|--------------------------------|
+| **Connect with me** | <a href="https://linkedin.com/in/johannesbausch"><img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" width="25" height="25"></a> &nbsp; <a href="https://instagram.com/hakujojoo"><img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" width="25" height="25"></a> &nbsp; <a href="https://discord.com/users/394071507640385536"><img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/discord.svg" width="25" height="25"></a> |
+| **More Information** | 🌐 https://www.johannes-bausch.com |
+
+</div>
 
 <img src="https://streak-stats.demolab.com?user=johannesbausch&theme=dark&hide_border=true&card_width=1012&background=00000000&border=00000000&stroke=00000000&ring=79C0FF&fire=FF8000&currStreakNum=79C0FF&sideNums=79C0FF&currStreakLabel=79C0FF&sideLabels=79C0FF&dates=79C0FF" alt="GitHub Streak" />
