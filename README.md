@@ -21,7 +21,7 @@
 | **Business** | 📧 private@johannes-bausch.com |
 |--------------|--------------------------------|
 | **Connect with me** | <a href="https://linkedin.com/in/johannesbausch"><img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" width="25" height="25"></a> &nbsp; <a href="https://instagram.com/hakujojoo"><img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" width="25" height="25"></a> &nbsp; <a href="https://discord.com/users/394071507640385536"><img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/discord.svg" width="25" height="25"></a> |
-| **More Information** | 🌐 https://www.johannes-bausch.com |
+| **More Information** | 🌐 https://johannes-bausch.com |
 
 </div>
 
